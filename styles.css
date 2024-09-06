@@ -31,6 +31,12 @@ h1 {
     color: #dfc3d9; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    border: 2px solid rgb(0, 0, 0); /* Adiciona uma borda sólida preta de 2px */
+    padding: 20px; /* Adiciona um espaçamento interno de 20px */
+    width: 300px;  /* Define a largura da caixa para 300px - ajuste conforme necessário */
+    background-color: #454a55;
 }
 
 /* Estiliza as seções da página */
