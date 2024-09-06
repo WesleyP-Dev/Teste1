@@ -19,6 +19,15 @@ let dados = [
         descricao: "Nhom nhom nhom nhom, ehe",
         link: "https://www.exemplo-site.com/guia-cacador-stellaron",
         tags: "apex guia pro player"
+    },
+    {
+        titulo: "Pato",
+        subtitulo: "Dominando a arte do Pro player de House Flipper",
+        descricao: "Se gostar, chama DM no insta :D",
+        link: "https://www.exemplo-site.com/guia-cacador-stellaron",
+        tags: "House Flipper Quack guia pro player Chocolat"
     }
+    
+    
 ];
 

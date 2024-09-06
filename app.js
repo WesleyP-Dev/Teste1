@@ -7,7 +7,7 @@ function pesquisar() {
 
     // se campoPesquisa for vazio ou nulo
     if (campoPesquisa == "") {
-        section.innerHTML = "<p>Por favor, digite algo para pesquisar.</p>";
+        section.innerHTML = "<h4>Por favor, digite algo para pesquisar.</h4>";
         return
     }
 
@@ -40,7 +40,7 @@ function pesquisar() {
     }
 
 if (!resultados) {
-    resultados = "<p>Não encontramos resultados para a sua pesquisa.</p>"; }
+    resultados = "<h4>Não encontramos resultados para a sua pesquisa.</h4>"; }
 
     // Define o HTML interno da 'section' com o conteúdo da variável 'resultados'.
     section.innerHTML = resultados;

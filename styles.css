@@ -3,22 +3,32 @@
 
 /* Estiliza o corpo da página */
 body {
-    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: #DDDDDD; /* Cor de fundo da página */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Alinha os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: center; /* Centraliza os itens verticalmente */
-    height: 100vh; /* Preenche a altura total da viewport */
+    font-family: "Chakra Petch", sans-serif;
+    /* Define a fonte padrão */
+    background-color: #DDDDDD;
+    /* Cor de fundo da página */
+    display: flex;
+    /* Usa Flexbox para layout */
+    flex-direction: column;
+    /* Alinha os itens na vertical */
+    align-items: center;
+    /* Centraliza os itens horizontalmente */
+    justify-content: center;
+    /* Centraliza os itens verticalmente */
+    height: 100vh;
+    /* Preenche a altura total da viewport */
     margin: 0;
     padding: 0;
+    background-image: url('https://img.freepik.com/fotos-premium/por-do-sol-em-um-estilo-de-anime-de-paisagem-de-lago_839169-12198.jpg?w=740');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(60px);
 }
-
-
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #dfc3d9; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
@@ -38,7 +48,7 @@ section input {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #45474B; /* Cor do texto */
+    color: #000000; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
@@ -64,6 +74,23 @@ section h2 article {
     margin-bottom: 1rem; /* Espaçamento abaixo do título */
     
 }
+
+section h4 {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    margin-bottom: 1rem; /* Espaçamento abaixo do título */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    border: 2px solid rgb(0, 0, 0); /* Adiciona uma borda sólida preta de 2px */
+    padding: 20px; /* Adiciona um espaçamento interno de 20px */
+    width: 300px;  /* Define a largura da caixa para 300px - ajuste conforme necessário */
+    background-color: #454a55;
+}
+
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */
@@ -92,7 +119,7 @@ section h2 article {
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
+    color: #1d7ed8; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -102,7 +129,7 @@ section h2 article {
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #45474B; /* Cor do texto */
+    color: #454a55; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
